@@ -1,0 +1,93 @@
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.form {
+    background-color: white;
+    width: 396px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+}
+
+.enter1 {
+    font-size: 17px;
+    border-radius: 4px;
+    width: 396px;
+    height: 22px;
+    padding: 25px 0;
+    padding-left: 15px;
+    border: 1px solid #dddfe2;
+    transition: border-color 250ms ease-in-out;
+}
+
+.enter1:hover {
+    border-color: #457B9D;
+}
+
+.submitButton {
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.submitButton1 {
+    width: 396px;
+    padding: 15px 0;
+    font-size: 20px;
+    background-color: #48AAFF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: background-color 250ms ease-in-out;
+}
+
+.submitButton1:hover, .submitButton1:focus {
+    background-color: #269AFF;
+}
+
+.cancelButton {
+    margin-top: 25px;
+    border-top: 1px solid #DADDE1;
+    display: flex;
+    justify-content: center;
+}
+
+.cancelButton1 {
+    background-color: #A8DADC;
+    font-size: 17px;
+    width: 200px;
+    padding: 15px 7px;
+    border-radius: 4px;
+    margin-top: 25px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: background-color 250ms ease-in-out;
+}
+
+.cancelButton1:hover, .cancelButton1:focus {
+    background-color: #7FCACC;
+}
+
+.cancelButton2 {
+    text-decoration: none;
+    color: white;
+}
+

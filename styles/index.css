@@ -1,0 +1,52 @@
+body {
+    background-color: #B3B3B3;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.editDelete {
+    text-decoration: none;
+    color: black;
+}
+
+.listOfBooks {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 860px;
+    margin: auto;
+}
+
+.bookEntries {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bookDetails {
+    width: 580px;
+    display: inline-block;
+}
+
+.bookName {
+    margin: 0;
+    font-size: 25px;
+}
+
+.authorName {
+    margin: 0;
+    font-size: 18px;
+}
+
+.bookEditDelete {
+    width: 280px;
+    display: inline-block;
+}
