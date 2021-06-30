@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="./styles/index.css">
     </head>
 <body>
+    <div class="addNewBook">
+        <a class="addNewBookLink"  href="add.php">Add New</a>
+    </div>
+    
     <?php
         if ( isset($_SESSION['error']) ) {
             echo '<p style="color:red">'.$_SESSION['error']."</p>\n";
@@ -44,5 +48,3 @@
 
     </div>
 </body>
-
-<a href="add.php">Add New</a>

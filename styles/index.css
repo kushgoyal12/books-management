@@ -7,14 +7,25 @@ hr {
     border-top: 1px solid rgba(0,0,0,.1);;
 }
 
+.addNewBook {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.addNewBookLink {
+    color: black;
+    font-size: 25px;
+}
+
 .title {
     text-align: center;
     font-size: 40px;
 }
 
 .editDelete {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
+    font-size: 18px;
 }
 
 .listOfBooks {
@@ -24,6 +35,7 @@ hr {
     width: 100%;
     max-width: 860px;
     margin: auto;
+    margin-top: 5%;
 }
 
 .bookEntries {
@@ -49,4 +61,5 @@ hr {
 .bookEditDelete {
     width: 280px;
     display: inline-block;
+    text-align: center;
 }

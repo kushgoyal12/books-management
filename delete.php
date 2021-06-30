@@ -27,10 +27,28 @@
     }
 
 ?>
-<p>Confirm: Deleting <?= htmlentities($row['name']) ?></p>
 
-<form method="post">
-    <input type="hidden" name="book_id" value="<?= $row['book_id'] ?>">
-    <input type="submit" value="Delete" name="delete">
-    <a href="index.php">Cancel</a>
-</form>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/app.css">
+    </head>
+</html>
+
+<body>
+    <div class="form">
+        <p class="deletingBook">Confirm: Deleting <?= htmlentities($row['name']) ?></p>
+
+        <form method="post">
+
+            <input type="hidden" name="book_id" value="<?= $row['book_id'] ?>">
+
+                <div class="submitButton">
+                    <button name="delete" type="submit" class="submitButton1">Delete</button>
+                </div>
+
+                <div class="cancelButton">
+                    <button class="cancelButton1"><a class="cancelButton2" href="index.php">Cancel</a></button>
+                </div>
+        </form>
+    </div>
+</body>
