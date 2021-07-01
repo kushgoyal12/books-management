@@ -22,12 +22,6 @@ hr {
     font-size: 40px;
 }
 
-.editDelete {
-    /* text-decoration: none; */
-    color: black;
-    font-size: 18px;
-}
-
 .listOfBooks {
     padding: 15px;
     background-color: white;
@@ -62,4 +56,10 @@ hr {
     width: 280px;
     display: inline-block;
     text-align: center;
+}
+
+.editDelete {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }

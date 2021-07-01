@@ -32,7 +32,6 @@
     <head>
         <link rel="stylesheet" href="./styles/app.css">
     </head>
-</html>
 
 <body>
     <div class="form">
@@ -52,3 +51,5 @@
         </form>
     </div>
 </body>
+</html>
+
